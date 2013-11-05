@@ -3,9 +3,9 @@
 *A graphical shell for the current millenium.*
 Currently conceptual.
 
-Shoctoe is a flow based programming interface,
+Shoctode is a flow based programming interface,
 for live programming.
-Itprovides a real time preview of all data and graphical
+It provides a real time preview of all data and graphical
 tools to build custom GUIs.
 Shoctode is based on the functional programming language
 **to be decidet**.
@@ -14,7 +14,7 @@ The objective of Shoctode is to provide a
 to the core concepts of UNIX: *Do one thing well*.
 In spite of the UNIX shell it's based on the functional
 programming language **to be decidet**, which is used for
-all the libbrarys and the code generation.
+all the libraries and the code generation.
 
 ## Intro
 
@@ -22,7 +22,7 @@ At the moment there are basically two ways to interact with
 a computer: Text for the programmers and unix veterans and
 GUI for the mere user. Both approaches have huge advantages:
 With a GUI huge amounts of highly complex data can be
-displayed while the text interface provieds the power of a
+displayed while the text interface provides the power of a
 programming language.
 
 Shoctode aims at merging those concepts int a single,
@@ -50,7 +50,7 @@ The candidates are currently:
 
 Shoctode is written (and translates to) a functional
 language. Most of the functional concepts will be
-preseserved (functions are just types, no side effects).
+preserved (functions are just types, no side effects).
 The main difference will be, that the flow based style
 supports multiple return value, these can however be easily
 implemented by using tuples/structures as return value.
@@ -68,9 +68,8 @@ directly to their functional pendants:
 
 ## Sec
 
-Each application shall be run by default in a no acess
-jail. This jail restricts access to (at least) the following
-resources:
+Each application shall be run by default in a no-access-jail.
+This jail restricts access to (at least) the following resources:
 
 * Syscalls in general
 * FS
@@ -84,22 +83,22 @@ resources:
 * Devices
 * Input
 
-The jail shall posess the ability to:
+The jail shall possess the ability to:
 
 * Deny access
 * Modify access/output (e.g. `$ ls /` gives
   'this_is_virtual.txt')
 * Allow access
 
-Default restriction for all IO, and proocess management is to deny acess.
-Default for Memory/CPU Time is to allow a certan load.
-It is always possible to create a custom enviroment ("modify
+Default restriction for all IO, and process management is to deny access.
+Default for Memory/CPU Time is to allow a certain load.
+It is always possible to create a custom environment ("modify
 access") without restriction.
 
 Jailing is done through access tokens, which can be modified
-to drop certain priviliges.
+to drop certain privileges.
 
-Elevating access shall only be posible by using
+Elevating access shall only be possible by using
 cryptographic keys to sign access tokens.
 These tokens shall also be the *root* of all permissions.
 
@@ -111,13 +110,17 @@ Drive Encryption) shall be used instead of access control
 
 Put stuff here we need to integrate into the sections above.
 
-* I dont have anything right now,
+* I don't have anything right now,
 * but this is a list and a topic could look like
-* Joy and Play 
+* Joy and Play
+
+## Random Links
+
+* http://hackage.haskell.org/package/pipes
 
 ## Contribute
 
-You are very welcome to join use creating shoctode and in
+You are very welcome to join use creating Shoctode and in
 writing the abstract.
 You can find the abstract and the code on GitHub:
 https://github.com/Shoctode/shoctode
