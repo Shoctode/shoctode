@@ -108,13 +108,14 @@ Where possible real cryptographic protection (e.g. Hard
 Drive Encryption) shall be used instead of access control
 (e.g. Full Disk Encryption instead of FS Permissions).
 
-## Think about
+## TODO
 
 Put stuff here we need to integrate into the sections above.
 
-* I don't have anything right now,
-* but this is a list and a topic could look like
-* Joy and Play
+* Why do we need this?
+* Describe Editors?
+* Describe Preview?
+* Add a sketch
 
 ## Random Links
 
