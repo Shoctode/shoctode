@@ -1,5 +1,7 @@
 # Shoctode
 
+http://shocto.de
+
 *A graphical shell for the current millenium.*
 Currently conceptual.
 
