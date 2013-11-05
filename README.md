@@ -114,3 +114,10 @@ Put stuff here we need to integrate into the sections above.
 * I dont have anything right now,
 * but this is a list and a topic could look like
 * Joy and Play 
+
+## Contribute
+
+You are very welcome to join use creating shoctode and in
+writing the abstract.
+You can find the abstract and the code on GitHub:
+https://github.com/Shoctode/shoctode
