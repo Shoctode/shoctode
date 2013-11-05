@@ -45,7 +45,6 @@ The candidates are currently:
 * Erlang
 * OCaml
 * Haskell
-** We could use the types
 
 ## The Flow
 
@@ -108,10 +107,10 @@ Where possible real cryptographic protection (e.g. Hard
 Drive Encryption) shall be used instead of access control
 (e.g. Full Disk Encryption instead of FS Permissions).
 
-## To think about
+## Think about
 
 Put stuff here we need to integrate into the sections above.
 
 * I dont have anything right now,
-* but this is a Ãlist and a topic could look like
+* but this is a list and a topic could look like
 * Joy and Play 
