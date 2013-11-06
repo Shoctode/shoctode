@@ -27,7 +27,7 @@ With a GUI huge amounts of highly complex data can be
 displayed while the text interface provides the power of a
 programming language.
 
-Shoctode aims at merging those concepts int a single,
+Shoctode aims at merging those concepts into a single,
 programmable user interface.
 
 ## Lang
